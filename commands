@@ -1,0 +1,4 @@
+npx create-react-app  . --template typescript --use-npm studies
+
+==run project==
+npm start
