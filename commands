@@ -2,3 +2,11 @@ npx create-react-app  . --template typescript --use-npm studies
 
 ==run project==
 npm start
+
+
+
+https://www.npmjs.com/package/sass
+npm install --save-dev sass
+
+https://www.npmjs.com/package/typescript-plugin-css-modules
+npm install -D typescript-plugin-css-modules
