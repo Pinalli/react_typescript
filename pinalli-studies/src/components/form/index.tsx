@@ -1,8 +1,8 @@
 import React from 'react';
-import Botao from '../button';
+import Button from '../button';
 import style from './Form.module.scss';
 
-class Formulario extends React.Component {
+class Form extends React.Component {
   render() {
     return (
       <form className={style.newTask}>
@@ -32,10 +32,12 @@ class Formulario extends React.Component {
             required
           />
         </div>
-        <Botao />
+        <Button>
+          Adicionar
+        </Button>
       </form>
     )
   }
 }
 
-export default Formulario;
+export default Form;
