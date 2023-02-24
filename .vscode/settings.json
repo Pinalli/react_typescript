@@ -1,3 +1,9 @@
 {
-    "editor.suggest.snippetsPreventQuickSuggestions": false
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "cSpell.words": [
+        "Adicione",
+        "estudo",
+        "quer",
+        "você"
+    ]
 }

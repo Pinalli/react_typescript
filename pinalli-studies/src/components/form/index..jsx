@@ -14,7 +14,7 @@ class Form extends React.Component {
             type="text"
             name="task"
             id="task"
-            placeholder="O que vocÃª quer estudar"
+            placeholder="O que você quer estudar"
             required
           />
         </div>
