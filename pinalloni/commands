@@ -1,0 +1,8 @@
+npx create-react-app pinalloni --template typescript --use-npm
+
+npm install -D typescript-plugin-css-modules sass
+
+npm run start
+
+
+ npm run build
