@@ -1,0 +1,1 @@
+ npx create-react-app pinalloni --template typescript --use-npm
