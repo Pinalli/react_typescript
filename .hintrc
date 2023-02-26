@@ -17,6 +17,13 @@
           "meta[name=theme-color]"
         ]
       }
+    ],
+    "meta-charset-utf-8": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
     ]
   }
 }

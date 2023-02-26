@@ -1,6 +1,13 @@
+https://create-react-app.dev/
+================================================
+
 npx create-react-app pinalloni --template typescript --use-npm
 
 npm install -D typescript-plugin-css-modules sass
+
+npm install normalize.css
+
+npm install react-icons
 
 npm run start
 
