@@ -1,4 +1,5 @@
 https://create-react-app.dev/
+https://mh-oliveira.medium.com/padroniza%C3%A7%C3%A3o-e-formata%C3%A7%C3%A3o-de-c%C3%B3digo-reactjs-utilizando-editorconfig-eslint-e-prettier-javascript-a09bd85eb271
 ================================================
 
 npx create-react-app pinalloni --template typescript --use-npm

@@ -2,6 +2,7 @@ import styles from './Menu.module.scss';
 import {ReactComponent as Logo }from 'assets/logo.svg';
 import Search from './search';
 import { useState } from 'react';
+import Filtros from './Filtros';
 
 export default function Menu() {
    const [search, setSearch] = useState('');
@@ -12,15 +13,15 @@ export default function Menu() {
         <Logo/>       
        </nav>
        <header className={styles.header}>
-          <div className={styles.header__text}> A casa do código e da massa                
+          <div className={styles.header__text}> A casa do cï¿½digo e da massa                
           </div>
        </header>
         <section className={styles.menu} >
-            <h3 className={styles.menu_title}> Cardápio</h3> 
-            <Search 
-            search={search}
-            setSearch={setSearch}
-            />          
+            <h3 className={styles.menu_title}> Cardï¿½pio</h3> 
+            <Search search={search} setSearch={setSearch} />  
+            <div className={styles.menu_filters}>
+              <Filtros />
+              </div>        
         </section>
         </main>
     );
