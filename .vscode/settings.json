@@ -5,5 +5,7 @@
         "estudo",
         "quer",
         "você"
-    ]
+    ],
+    "editor.indentSize": "tabSize",
+    "files.encoding": "utf8"
 }
